@@ -1,0 +1,2 @@
+﻿hello_world.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl todo_move_me_out(void)" (?todo_move_me_out@@YAXXZ) в функции main.
+C:\Users\User\Downloads\source-12995-f8d6de\build\Debug\hello_world.exe : fatal error LNK1120: неразрешенных внешних элементов: 1

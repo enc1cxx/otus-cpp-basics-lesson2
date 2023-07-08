@@ -1,0 +1,10 @@
+^C:\USERS\USER\DOWNLOADS\SOURCE-12995-F8D6DE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/User/Downloads/source-12995-f8d6de -BC:/Users/User/Downloads/source-12995-f8d6de/build --check-stamp-file C:/Users/User/Downloads/source-12995-f8d6de/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

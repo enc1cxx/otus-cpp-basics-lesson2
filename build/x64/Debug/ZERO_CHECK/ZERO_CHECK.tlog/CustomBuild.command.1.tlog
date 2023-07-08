@@ -1,0 +1,10 @@
+^C:\USERS\USER\DOWNLOADS\SOURCE-12995-F8D6DE\BUILD\CMAKEFILES\529D7AC97714171FB7FD18F053CFF966\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/User/Downloads/source-12995-f8d6de -BC:/Users/User/Downloads/source-12995-f8d6de/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/User/Downloads/source-12995-f8d6de/build/01.hello_world.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
